@@ -205,21 +205,21 @@ Na sua submissão do projeto deve considerar os seguinte pontos:
 
 Na avaliação do projeto serão consideradas as seguintes componentes:
 
-    1. A primeira componente avalia o desempenho da funcionalidade do programa realizado. Esta componente é avaliada entre 0 e 16 valores.
+1. A primeira componente avalia o desempenho da funcionalidade do programa realizado. Esta componente é avaliada entre 0 e 16 valores.
 
-    2. A segunda componente avalia a qualidade do código entregue, nomeadamente os seguintes aspectos: comentários, indentação, estruturação, modularidade, abstracção, entre outros. Esta componente poderá variar entre -4 valores e +4 valores relativamente à classificação calculada no item anterior e será atribuída posteriormente. Algumas guidelines sobre este tópico podem ser encontradas [guidelines.md](guidelines.md).
+2. A segunda componente avalia a qualidade do código entregue, nomeadamente os seguintes aspectos: comentários, indentação, estruturação, modularidade, abstracção, entre outros. Esta componente poderá variar entre -4 valores e +4 valores relativamente à classificação calculada no item anterior e será atribuída posteriormente. Algumas guidelines sobre este tópico podem ser encontradas [guidelines.md](guidelines.md).
 
-    3. A classificação da primeira componente da avaliação do projeto é obtida através da execução automática de um conjunto de testes num computador com o sistema operativo GNU/Linux. Torna-se portanto essencial que o código compile correctamente e que respeite o formato de entrada e saída dos dados descrito anteriormente. Projetos que não obedeçam ao formato indicado no enunciado serão penalizados na avaliação automática, podendo, no limite, ter 0 (zero) valores se falharem todos os testes. Os testes considerados para efeitos de avaliação poderão incluir (ou não) os disponibilizados na página da disciplina, além de um conjunto de testes adicionais. A execução de cada programa em cada teste é limitada na quantidade de memória que pode utilizar, e no tempo total disponível para execução, sendo o tempo limite distinto para cada teste.
+3. A classificação da primeira componente da avaliação do projeto é obtida através da execução automática de um conjunto de testes num computador com o sistema operativo GNU/Linux. Torna-se portanto essencial que o código compile correctamente e que respeite o formato de entrada e saída dos dados descrito anteriormente. Projetos que não obedeçam ao formato indicado no enunciado serão penalizados na avaliação automática, podendo, no limite, ter 0 (zero) valores se falharem todos os testes. Os testes considerados para efeitos de avaliação poderão incluir (ou não) os disponibilizados na página da disciplina, além de um conjunto de testes adicionais. A execução de cada programa em cada teste é limitada na quantidade de memória que pode utilizar, e no tempo total disponível para execução, sendo o tempo limite distinto para cada teste.
 
-    4. Note-se que o facto de um projeto passar com sucesso o conjunto de testes disponibilizado na página da disciplina não implica que esse projeto esteja totalmente correcto. Apenas indica que passou alguns testes com sucesso, mas este conjunto de testes não é exaustivo. É da responsabilidade dos alunos garantir que o código produzido está correcto.
+4. Note-se que o facto de um projeto passar com sucesso o conjunto de testes disponibilizado na página da disciplina não implica que esse projeto esteja totalmente correcto. Apenas indica que passou alguns testes com sucesso, mas este conjunto de testes não é exaustivo. É da responsabilidade dos alunos garantir que o código produzido está correcto.
 
-    5. Em caso algum será disponibilizado qualquer tipo de informação sobre os casos de teste utilizados pelo sistema de avaliação automática. A totalidade dos ficheiros de teste usados na avaliação do projeto serão disponibilizados na página da disciplina após a data de entrega.
+5. Em caso algum será disponibilizado qualquer tipo de informação sobre os casos de teste utilizados pelo sistema de avaliação automática. A totalidade dos ficheiros de teste usados na avaliação do projeto serão disponibilizados na página da disciplina após a data de entrega.
 
-    6. Os projectos que não usarem alocação dinâmica de memória nas estruturas de dados de tamanho variável serão penalizadas na segunda componente de avaliação até um máximo de 4 valores. Quem optar por alocação de memória estática pode considerar os seguintes limites nas estruturas de dados:
+6. Os projectos que não usarem alocação dinâmica de memória nas estruturas de dados de tamanho variável serão penalizadas na segunda componente de avaliação até um máximo de 4 valores. Quem optar por alocação de memória estática pode considerar os seguintes limites nas estruturas de dados:
 
-        * Comprimento do nome dos parques de estacionamento: 50 bytes. Notar que um carácter acentuado em utf-8 utiliza mais de um byte. Por exemplo `praça` tem 5 letras mas ocupa 6 bytes (`char` em C).
-        * Número máximo de veículos simultaneamente no sistema: 10000
-        * Número máximo de entradas de um veículo nos parques de estacionamento: 10000
+     * Comprimento do nome dos parques de estacionamento: 50 bytes. Notar que um carácter acentuado em utf-8 utiliza mais de um byte. Por exemplo `praça` tem 5 letras mas ocupa 6 bytes (`char` em C).
+     * Número máximo de veículos simultaneamente no sistema: 10000
+     * Número máximo de entradas de um veículo nos parques de estacionamento: 10000
 
 ## 7. Dicas para Desenvolvimento do Projeto
 

@@ -38,7 +38,7 @@ Nos primeiros 4 períodos de 15 minutos é cobrado X por cada período. A partir
 
 Os veículos podem permanecer num parque por mais de 24 horas. Nesse caso, é aplicado o valor máximo diário Z a cada período completo de 24 horas que permanecer no parque. O valor a cobrar pelo período remanescente é calculado de acordo com o definido para um período inferior a 24 horas como descrito no parágrafo anterior.
 
-Suponha um parque cujo tarifário é 0.25 (15 min. na 1ª hora), 0.30 (15 mim. após 1ª hora), 15.00 (máximo por cada 24 horas). Considere um veículo que dá entrada no parque no dia 01-04-2024 08:00 e sai no dia 04-04-2024 10:00. Neste caso, o veiculo permaneceu no parque por 3 períodos de 24 horas e 2 horas adicionais. Logo, o valor a cobrar é definido por 3*\15.00+0.25*\4+0.30*\4. Se o veículo saisse no dia 04-04-2024 23:00, então o valor a cobrar seria 3*15.00+15.00 porque o valor máximo a cobrar no último período está limitado a 15.00.
+Suponha um parque cujo tarifário é 0.25 (15 min. na 1ª hora), 0.30 (15 mim. após 1ª hora), 15.00 (máximo por cada 24 horas). Considere um veículo que dá entrada no parque no dia 01-04-2024 08:00 e sai no dia 04-04-2024 10:00. Neste caso, o veiculo permaneceu no parque por 3 períodos de 24 horas e 2 horas adicionais. Logo, o valor a cobrar é definido por 3\*15.00+0.25\*4+0.30\*4. Se o veículo saisse no dia 04-04-2024 23:00, então o valor a cobrar seria 3\*15.00+15.00 porque o valor máximo a cobrar no último período está limitado a 15.00.
 
 Os valores monetários são representados como números reais em vírgula flutuante e devem ser impressos com duas casas decimais (`%.2f`). As datas são representadas no formato DD-MM-AAAA e as horas são representadas no formato HH:MM.
 

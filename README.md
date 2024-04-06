@@ -1,7 +1,7 @@
 # IAED-Project-2024
 This is my project for my class of Introduction to Algorithms and Data Structures
 
-This project's statement is here > enunciado.md
+This project's statement is here > [enunciado.md](enunciado.md)
 
 Some guidelines to how you should approach it [guidelines.md](guidelines.md), and some more usefull information here information.md (pretty much the same information as the last year's project).
 
